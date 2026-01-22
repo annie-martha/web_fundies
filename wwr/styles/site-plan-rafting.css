@@ -5,25 +5,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #69E5C2  ;
-  --secondary-color: #FBCCCC ;
-  --accent1-color: #743751;
-  --accent2-color: #AC6363;
+  --primary-color: #454ADE;
+  --secondary-color: #1B1F3B;
+  --accent1-color: #C874D9;
+  --accent2-color: #E1BBC9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Quicksand";
   --paragraph-font: "Courier New", "Times New Roman", Arial;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #05281d;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #05281d; /* paragraph text on a white background */ 
+  --headline-color-on-white: #1B1F3B;  /* headlines on a white background */ 
+  --headline-color-on-color: #E1BBC9; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #1B1F3B; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #3ea29d  ;
-  --nav-link-color: #fdfeff;
-  --nav-background-color: #29a44e;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --paragraph-background-color: #454ADE;
+  --nav-link-color: #E1BBC9;
+  --nav-background-color: #1B1F3B;
+  --nav-hover-link-color: #E1BBC9;
+  --nav-hover-background-color: #454ADE;
 }
 
 
