@@ -1,18 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 #content {
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 .home-title{
     color:#1B1F3B;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+     margin-top: 10px;
 }
 
 .icon{
  width: 80px;
+ padding-top: 10px;
+}
+
+.card-image{
+    border: 10px solid black;
+}
+
+.rivers-card{
+      margin: 200px 0;
+}
+
+.camping-card{
+      margin: 200px 0;
+}
+
+.rapids-card{
+      margin: 200px 0;
 }
 
 .logo{
     width: 80px;
+}
+
+#logo-link{
+     padding-top: 5px;
 }
 
 #hero-img{
@@ -22,6 +48,7 @@
 nav a {
     text-align: center;
     color: #1B1F3B;
+      padding: 35px;
 }
 
 #hero-msg h1{
@@ -38,6 +65,10 @@ h4{
 color: #1B1F3B;
 }
 
+h2{
+    margin: 0;
+}
+
 .button-box{
     text-align: center;
   
@@ -47,12 +78,20 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+   
+}
+
 #background{
     height: 725px;
 }
 
 body{
  background-color: rgb(225, 247, 247);
+ font-size: 22px;
+margin: 0;
+padding: 0;
 }
 
 header{
@@ -63,6 +102,11 @@ header{
 background-color: #1B1F3B;
 color: #E1BBC9;
 text-decoration: none;
+font-size: 18px;
+ padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: solid;
 }
 
 .book:hover{
@@ -74,7 +118,11 @@ color: #E1BBC9;
 background-color: #C874D9;
 color: #1B1F3B;
 text-decoration: none;
-
+font-size: 18px;
+ padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: solid;
 }
 
 .join:hover{
@@ -92,19 +140,30 @@ color: #1B1F3B;
 
 .msg{
 background-color: #E1BBC9;
+line-height: 1.5em;
+ padding: 35px;
 }
 
 .msg h2{
     color: #1B1F3B;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .msg p{
 color: #1B1F3B;
+font-size: .8em;
+padding-bottom: 15px;
 }
 
 footer{
-background-color: rgb(176, 208, 208);
-color: #32354f;
+    background-color: rgb(176, 208, 208);
+    color: #32354f;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 footer p{
