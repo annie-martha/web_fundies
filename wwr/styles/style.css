@@ -93,7 +93,7 @@ nav a {
       padding: 35px;
 }
 
-#her-msg {
+#hero-msg {
         grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
@@ -136,6 +136,7 @@ main section img{
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
+    background-color: #6f7364;
 }
 
 body{
@@ -247,7 +248,10 @@ footer p a:hover{
       text-decoration: underline
 }
 
-
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
